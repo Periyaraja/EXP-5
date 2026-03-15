@@ -56,28 +56,18 @@ contract ZKVoting {
 }
 
 ```
-# Expected Output:
-Voters commit their votes privately.
-<img width="1920" height="1080" alt="Screenshot 2025-10-23 091510" src="https://github.com/user-attachments/assets/314e4bad-a3ff-4c0b-a9b7-8b7c15987917" />
 
+# Output:
+<img width="1327" height="562" alt="Screenshot 2025-11-05 105241" src="https://github.com/user-attachments/assets/0a89ddcf-02c6-4302-b74d-d1b232bc686e" />
 
-When revealed, the contract verifies correctness but keeps votes anonymous.
+### To generate a hash to register vote (web3.utils.soliditySha3("apple", 1)):
 
-<img width="1920" height="1080" alt="Screenshot 2025-10-23 091520" src="https://github.com/user-attachments/assets/054f138b-d27c-4569-8566-4dd684d9c72d" />
+<img width="595" height="84" alt="Screenshot 2025-11-05 105322" src="https://github.com/user-attachments/assets/99dffe68-b9e7-4ebf-9740-744f47732285" />
 
-Final result is publicly verifiable without exposing individual votes.
-<img width="1920" height="1080" alt="Screenshot 2025-10-23 091532" src="https://github.com/user-attachments/assets/a36d6edb-f431-42e9-b6eb-985251b9cfdb" />
+### Verify the registered Vote:
 
+<img width="197" height="420" alt="Screenshot 2025-11-05 105252" src="https://github.com/user-attachments/assets/917caa6e-fe9d-4000-8c99-a2e186287bbc" />
 
-
-# High-Level Overview:
-Uses ZKPs to ensure anonymous and fair elections.
-
-
-Prevents vote tampering while maintaining voter privacy.
-
-
-Mimics real-world ZK voting applications in governance and DAOs.
 
 # RESULT: 
-Thus a fully private and transparent voting system using Zero-Knowledge Proofs (ZKPs) is executed successfully.
+Thus to implement a fully private and transparent voting system using Zero-Knowledge Proofs (ZKPs) is executed Succefully.
